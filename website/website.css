@@ -1,0 +1,695 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url("web_img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* NAVbar Css STyling */
+
+.bi-cart{
+    font-size: 30px;
+}
+
+/* Login Form Css Style */
+
+#login_img {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#login_form_details {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 50px;
+}
+.login_btn{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.login_logo_img{
+    margin-left: 100px;
+    margin-top:-50px
+}
+
+/* Index Page Css STyling */
+
+#home_navbar .home_img {
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+
+}
+
+#nav_text {
+    position: relative;
+    top: -400px;
+    width: 500px;
+    left: 200px;
+    color: white;
+}
+.home_learn_btn{
+    background-color: white;
+    color:black;
+    width: 200px;
+    font-size:25px;
+    height: 50px;
+}
+.home_order_btn{
+    background-color: rgb(223, 145, 0);
+    width: 200px;
+    font-size:25px;
+    height: 50px;
+}
+.home_order_btn:hover{
+    background-color: rgb(189, 137, 40);
+}
+
+#nav_text h3 {
+    font-size: 40px;
+}
+#home_contain{
+    display: flex;
+    margin-top: -100px;
+    margin-right: 100px;
+}
+.grp1, .grp2, .grp3, .grp4{
+    display: flex;
+    flex-direction: column;
+}
+.grp1 img, .grp2 img, .grp3 img, .grp4 img{
+    border-bottom: 3px solid red;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+}
+.grp1 span, .grp2 span, .grp3 span, .grp4 span{
+    width: 250px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.carousel-item img{
+    height: 600px;
+}
+
+
+
+/* Purchase Page Css Styling */
+#search_box input{
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#search_box button{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+#login_box{
+  border: 1px solid black;
+  color: red;
+  width: 250px;
+  background-color: rgb(226, 238, 248);
+  box-shadow: 3px 3px 10px black;
+  padding: 20px;
+  font-size: 20px;
+  display: none;
+  position: absolute;
+  top: 300px;
+  left:500px;
+}
+
+
+/* Purchase Page Styling */
+
+#purhcase_card{
+  width: 270px;
+  border: 1px solid black;
+  height: auto;
+  background-color: white;
+}
+
+#purhcase_card img{
+  width: 200px;
+  height: 130px;
+  margin-top:10px;
+  border: 1px solid black;
+}
+
+/* View Purchase Image Css STyling */
+
+#view_purchase_page .view_img {
+    width: 600px;
+    height: 500px;
+}
+
+#view_purchase_page .card {
+    border: none;
+    margin-left: 250px;
+}
+
+#view_purchase_page .card-title {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#view_purchase_page .card-text1 {
+    font-size: 30px;
+}
+
+#view_purchase_page .card-text2,
+#view_purchase_page .card-text3,
+#view_purchase_page .card-text4,
+#view_purchase_page .card-text5 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#view_purchase_page .buy,
+#view_purchase_page .cart{
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+}
+.radio-text{
+    font-size: 23px;
+}
+.comment_by{
+    font-size: 20px;
+    padding-right: 30px;
+}
+.comment_date{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+/*Profile page design*/
+
+#profile_page{
+    margin-left: 25%;
+    margin-top:50px;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+#update_name, #update, #update_address, #update2 {
+    display: none;
+}
+
+
+/* Signup PAge CSS STyling */
+
+#signup_img {
+    width: 100vw;
+    height: 150vh;
+    background-size: cover;
+}
+.signup_btn{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#sign_form_details {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px;
+}
+
+.cash_img{
+    width: 300px;
+    height: 300px;
+}
+#COD_info input{
+    width: 400px;
+    height: 50px;
+    border: none;
+}
+#COD_info span{
+    font-weight: bold;
+}
+.po_buy{
+    width: 300px;
+    height: 50px;
+}
+/*Carts Page Design*/
+.cart_contain_flex{
+    display: flex ;
+    flex-direction: row;
+}
+#cart_num{
+    background-color: red;
+    border-radius: 40%;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+/* Your Cart */
+#cart_confirm{
+transform: translateX(220%);
+background-color: rgba(63, 58, 58, 0.197);
+width: 250px;
+padding: 40px;
+}
+#cart_confirm p{
+font-size: 20px;
+font-weight: bold;
+    }
+    
+
+#cart_confirm button:nth-child(2){
+background-color: aqua;
+padding: 10px;
+border: none;
+}
+
+#cart_confirm button:nth-child(3){
+    background-color: red;
+    padding: 10px;
+    border: none;
+    color: white;
+    }
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    padding-left: 40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.cart-card-image{
+    width: 250px;
+    height: 250px;
+
+}
+.card-body-cart{
+    margin-left: 60px;
+}
+.cart_check_btn{
+    width: 180px;
+}
+.carts_buy_btn{
+    margin-left: -100px;
+}
+
+#carts_buy_btn{
+    width: 400px;
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color:white;
+    padding: 10px 0px ;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-bottom: 100px;
+}
+#carts_buy_btn:hover{
+    background-color: rgb(233, 159, 21);
+}
+
+/*Order Page Design*/
+
+#your_order_box, #your_order_box2{
+    border: 1px solid grey;
+    padding: 30px;
+    margin:20px 100px;
+    display: flex;
+}
+.order_dply_block{
+    display: block;
+    margin-left:100px
+}
+.view_your_order_img{
+    width:250px;
+    height:250px;
+    margin-top:50px; 
+    margin-left: 30px;  
+}
+.your_order_img{
+    width:150px; height:150px;
+}
+
+
+
+
+#comment_btn{
+    width: 300px;
+    margin-bottom: 50px;
+}
+#comments_box{
+    margin-top: 50px;
+}
+
+
+
+
+
+/* Contactus styling */
+#contactus_container{
+    border:1px solid black;
+    margin-left:300px;
+    margin-top:50px;
+    width:700px;
+    padding:50px;
+    background-color: white;
+    box-shadow: 10px 10px 10px;
+}
+#contactus{
+    display: flex;
+    
+}
+#contactus_container .contactusbtn{
+/* margin-left: 100px; */
+float: right;
+}
+
+#contactus .left_box{
+border-right: 1px solid black;
+padding-right: 30px;
+}
+
+#contactus .left_box input{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    
+    }
+
+    #contactus .right_box textarea{
+        width: 250px;
+        border: none;
+        outline: none;
+        
+        }
+
+#contactus .right_box{
+    padding-left: 30px;
+    }
+
+#contact_msg_box {
+    border: 1px solid black;
+    width:300px;
+    box-shadow:5px 5px 10px;
+    padding:20px;
+    position: absolute;
+    left:500px;
+    top:250px;
+    background-color: white;
+    display: none;
+}
+
+#contact_msg_box svg{
+    transform: rotate(220deg);
+    float:right;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*Media query for 420px*/
+
+@media (min-width: 200px) and (max-width:420px) { 
+
+    /* Purchase Page Css Styling */
+#search_box input{
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#search_box button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+/* Index Page Css STyling */
+
+#home_navbar .home_img {
+    width: 100%;
+    height: 480px;
+
+}
+
+#nav_text {
+    top: -430px;
+    width: 300px;
+    left: 10px;
+    color: white;
+}
+
+#nav_text .heading{
+    font-size: 25px;
+}
+
+.home_learn_btn{
+    width: 150px;
+    font-size:20px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.home_order_btn{
+    width: 150px;
+    font-size:20px;
+    height: 40px;
+}
+
+#home_contain{
+    display: block;
+    margin-top: -250px;
+    margin-left: 0px;
+}
+.grp1 img, .grp2 img, .grp3 img, .grp4 img{
+    border-bottom: 3px solid red;
+    width: 150px;
+    height: 120px;
+    margin-left: 100px;
+}
+.grp1 span, .grp2 span, .grp3 span, .grp4 span{
+    width: 240px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.carousel-item img{
+    height: 350px;
+    width: 100%;
+    margin-left: -50px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    left: 10px;
+}
+
+/*Login Page styling*/
+
+#login_img {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#login_form_details {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: white;
+    color: black;
+    width: 350px;
+    padding: 50px;
+}
+#login_form_details button{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/*Sign Up Page*/
+
+/* Signup PAge CSS STyling */
+
+#sign_form_details {
+    top: 40px;
+    left: 30px;
+    background-color: white;
+    color: black;
+    width: 350px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px;
+}
+
+.signup_btn{
+    width: 200px;
+    margin-top: 20px ;
+    margin-left: 20px
+}
+
+/* Purchase Page Css Styling */
+
+
+/*View Page Styling*/
+#view_purchase_page{
+    width: 300px;
+}
+#view_purchase_page .view_img {
+    width: 300px;
+    height: 200px;
+}
+
+#view_purchase_page .card {
+    border: none;
+    margin-left: 20px;
+}
+
+#view_purchase_page .card-title {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#view_purchase_page .card-text1 {
+    font-size: 30px;
+}
+#view_purchase_page .buy,
+#view_purchase_page .cart{
+    width: 260px;
+    height: 70px;
+    font-size: 14px;
+}
+#view_purchase_page .buy{
+    display: block;
+}
+
+#profile_page{
+    margin-left: 5%;
+    margin-top:50px;
+    width: 360px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+/*Order Page Design*/
+
+#your_order_box{
+    width: 350px;
+    margin-left: 10px;
+    border: 1px solid grey;
+    padding: 30px;
+}
+.order_dply_block{
+    margin-left:10px;
+}
+.display_font{
+    font-size: 10px;
+}
+.view_your_order_img{
+    width:250px;
+    height:250px;
+    margin-top:50px; 
+    margin-left: 30px;  
+}
+.order_dply_block h6{
+    font-size: 12px;
+}
+.order_btn_block button{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.order_btn_block{
+    margin-left: -100px;
+    
+}
+.your_order_img{
+    width:100px; height:100px;
+}
+
+.view_your_order_img{
+    width:200px;
+    height:200px;
+    margin-top:0px; 
+    margin-bottom:10px;
+    margin-left: 30px;  
+}
+.your_order_box2{
+    display: block;
+}
+#your_order_box2{
+    display: block;
+    width: 350px;
+    margin-left:10px;
+}
+
+/*Cmment Box*/
+#comment_btn{
+    width: 300px;
+    margin-bottom: 50px;
+}
+#comments_box{
+    margin-top: 50px;
+    width: 300px;
+}
+
+/*Your Cart*/
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    padding-left: 40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left:20px;
+}
+.cart-card-image{
+    width: 100px;
+    height: 80px;
+
+}
+.card-body-cart{
+    margin-left: 60px;
+}
+.cart_check_btn{
+    width: 180px;
+    margin-left: -50px;
+}
+
+#carts_buy_btn{
+    width: 200px;
+    font-size: 24px;
+    margin-left: 30%;
+    margin-bottom: 100px;
+}
+.card-text{
+    margin-left: -50px;
+}
+
+ }
+
+
+ 
