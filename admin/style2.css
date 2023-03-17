@@ -1,0 +1,32 @@
+#box1, #box2, #box3, #box4, #box5,#box6{
+    border: 1px solid black;
+    width: 400px;
+    height:200px;
+    font-size: 30px;
+margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    
+
+}
+
+ #boxes1,#boxes2,#boxes3 {
+    display: flex;
+    color: white;
+} 
+
+
+#box2, #box1, #box3, #box4, #box5{
+    background-color: rgb(81, 81, 228) ;
+}
+/* #box3{
+    background-color: ;
+}
+#box4{
+    background-color: ;
+}
+#box5{
+    background-color: ;
+} */
+
